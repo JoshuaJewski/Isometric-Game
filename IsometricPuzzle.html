@@ -4,23 +4,19 @@
 <meta charset="UTF-8"/>
 <title>Isometric Game (Demo)</title>
 <script src="IsometricPuzzle.js"></script>
+<link rel="stylesheet" href="style.css">
 </head>
 
-<!-- Imlementierung der Funktionen siehe SimpleIsometric.js -->
 <body onload="init();zeichneFeld();">
 
-<!-- Abmessungen des Spielfelds bei Bedarf anpassen -->
 <canvas id="spielfeld" width="1600" height="800">
 	Looks like canvas is not supported in your browser!
 </canvas>
 <br>
-
-<!-- weitere Bewegungsrichtungen müssen Sie selbst implementieren -->
-<input type="button" value="up" onclick="moveUp()">
-<input type="button" value="down" onclick="moveDown()">
-<input type="button" value="left" onclick="moveLeft()">
-<input type="button" value="right" onclick="moveRight()">
-<input type="button" value="reset" onclick="updateLvl(0)">
-
+<button onclick="moveUp()">Hoch</button>
+<button onclick="moveDown()">Runter</button>
+<button onclick="moveLeft()">Links</button>
+<button onclick="moveRight()">Rechts</button>
+<button onclick="updateLvl(0)" id="reset">Reset Lvl</button>
 </body>
 </html>

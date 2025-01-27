@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+}
+button {
+    margin: 2px;
+    padding: 20px;
+    background-color: rgb(49, 152, 255);
+    color: white;
+    border: 0px;
+}
+
+button:hover {
+    background-color: dodgerblue;
+    color: rgb(245, 245, 245);
+}
+
+button:active {
+	background-color: rgb(14, 134, 255);
+}
+
+#reset {
+    background-color: crimson;
+}
+
+#reset:hover {
+    background-color: rgb(209, 14, 53);
+    color: rgb(245, 245, 245);
+}
+#reset:active {
+    background-color: rgb(197, 2, 41);
+}
